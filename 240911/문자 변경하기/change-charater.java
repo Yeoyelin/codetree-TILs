@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int a = 'c';
+        char a = 'c';
         a = 'T'
         System.out.println(a);
     }
