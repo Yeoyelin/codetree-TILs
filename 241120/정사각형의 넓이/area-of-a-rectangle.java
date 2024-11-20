@@ -8,6 +8,7 @@ public class Main {
         int w = n*n;
 
         if (n<5){
+            System.out.println(w);
             System.out.println("tiny");
         }
         else{
