@@ -4,7 +4,7 @@ tens= [x // 10 for x in num]
 
 count = [0]*10
 for elem in tens:
-    if 0<elem<10:
+    if 0<elem:
         count[elem] += 1
     else:
         count[elem] += 0
