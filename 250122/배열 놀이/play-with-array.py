@@ -14,4 +14,4 @@ for i in range(q):
             print(0)
     elif a[0] == 3:
         for j in range(a[1]-1, a[2]):
-            print(arr[j], end = " ")
+            print(arr[j])
