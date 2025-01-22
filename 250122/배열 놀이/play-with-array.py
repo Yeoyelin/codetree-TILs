@@ -1,4 +1,4 @@
-n, q = input().split()
+n, q = map(int, input().split())
 arr = list(map(int, input().split()))
 
 for i in range(q):
@@ -8,10 +8,10 @@ for i in range(q):
     elif a[0] == 2:
         for j in range(n):
             if arr[j] == a[1]:
-                print(len(arr[j]))
+                print(j+1)
                 break
         else:
             print(0)
-    else:
-        for j in range(a[1]-1, a[2]):
-            print(arr[j], end = " ")
+    elif a[0] == 3:
+        start, end = a[1] - 1, a[2]
+        print(" ".join(map(str, arr[start:end])))
